@@ -10,4 +10,4 @@ Especially useful if you use Windows Terminal to ssh into linux systems.
 Simple image backup script.\
 Used on a raspberry pi, edit line 22 and 31 to stop/start specific services\
 Must be run as su\
-sudo crontab -e -> 0 7 * * 1 /home/pi/scripts/image_backup.sh
+`sudo crontab -e` -> `0 7 * * 1 /home/pi/scripts/image_backup.sh`

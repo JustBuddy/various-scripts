@@ -11,3 +11,9 @@ Simple image backup script.\
 Used on a raspberry pi, edit line 22 and 31 to stop/start specific services\
 Must be run as su\
 `sudo crontab -e` -> `0 7 * * 1 /home/pi/scripts/image_backup.sh`
+
+## clear_plex-image-cache.sh
+A workaround to fix a plexmediaserver PhotoTranscoder storage leak.\
+Should be run in plex usercontext or as su.\
+`find "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder" -name "*.jpg" -type f -mtime +5 -delete`\
+Crontab I use: `0 4 * * *`

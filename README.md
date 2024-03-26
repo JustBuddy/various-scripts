@@ -17,3 +17,6 @@ A workaround to fix a plexmediaserver PhotoTranscoder storage leak.\
 Should be run in plex usercontext or as su.\
 `find "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder" -name "*.jpg" -type f -mtime +5 -delete`\
 Crontab I use: `0 4 * * *`
+
+## Revert a cloned repo to a previous commit.
+git reset --hard [hash]

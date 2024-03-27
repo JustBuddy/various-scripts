@@ -19,5 +19,5 @@ Should be run in plex usercontext or as su.\
 Crontab I use: `0 4 * * *`
 
 ## Commands I want to remember...
-Revert a cloned repo to a previous commit: git reset --hard [hash]  
-Switch branch: git checkout my-feature (-b creates a new branch.)
+Revert a cloned repo to a previous commit: `git reset --hard [hash]`  
+Switch branch: `git checkout branch` (-b creates a new branch.)

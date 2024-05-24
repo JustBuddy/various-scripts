@@ -20,4 +20,5 @@ Crontab I use: `0 4 * * *`
 
 ## Commands I want to remember...
 Revert a cloned repo to a previous commit: `git reset --hard [hash]`  
-Switch branch: `git checkout branch` (-b creates a new branch.)
+Switch branch: `git checkout branch` (-b creates a new branch.)  
+Cheat sheet: https://education.github.com/git-cheat-sheet-education.pdf  
